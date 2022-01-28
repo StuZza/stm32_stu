@@ -11,7 +11,7 @@
 #define CDC_CMD_EP                                  0x82 // EP2 for CDC commands
 
 // CDC endpoints packet sizes
-#define CDC_DATA_HS_MAX_PACKET_SIZE                 512  // USB HighSpeed endpoint IN & OUT packet size
+#define CDC_DATA_HS_MAX_PACKET_SIZE                 64  // USB HighSpeed endpoint IN & OUT packet size
 #define CDC_DATA_FS_MAX_PACKET_SIZE                 64   // USB FullSpeed endpoint IN & OUT packet size
 #define CDC_CMD_PACKET_SIZE                         8    // Control endpoint packet size
 
